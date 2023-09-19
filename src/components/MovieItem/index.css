@@ -1,0 +1,48 @@
+.thumbnail {
+  width: 216px;
+  height: 160px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 29px;
+  height: 29px;
+  border: none;
+  margin-top: 19px;
+  margin-right: 19px;
+  outline: none;
+  cursor: pointer;
+}
+
+.movie-player-container {
+  margin-top: 14px;
+  margin-left: 49px;
+  margin-bottom: 49px;
+  margin-right: 49px;
+}
+
+
+@media (min-width: 1200px) {
+  .thumbnail {
+    width: 254px;
+    height: 172px;
+  }
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 460px;
+  border-radius: 17px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
